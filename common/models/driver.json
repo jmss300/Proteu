@@ -30,7 +30,13 @@
     }
   },
   "validations": [],
-  "relations": {},
+  "relations": {
+    "accidents": {
+      "type": "hasMany",
+      "model": "Accident",
+      "foreignKey": ""
+    }
+  },
   "acls": [],
   "methods": {}
 }

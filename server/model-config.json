@@ -35,5 +35,9 @@
   "Driver": {
     "dataSource": "mysqlDS",
     "public": true
+  },
+  "Accident": {
+    "dataSource": "mysqlDS",
+    "public": true
   }
 }
