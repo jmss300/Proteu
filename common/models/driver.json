@@ -1,0 +1,36 @@
+{
+  "name": "Driver",
+  "base": "User",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "cc": {
+      "type": "string"
+    },
+    "bloodType": {
+      "type": "string"
+    },
+    "mobilePhone": {
+      "type": "string"
+    },
+    "emergencyContact": {
+      "type": "string"
+    },
+    "notes": {
+      "type": "string"
+    },
+    "diseases": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
