@@ -2,5 +2,14 @@
   "db": {
     "name": "db",
     "connector": "memory"
+  },
+  "mysqlDS": {
+    "host": "localhost",
+    "port": 3306,
+    "database": "Proteu",
+    "password": "root",
+    "name": "mysqlDS",
+    "connector": "mysql",
+    "user": "root"
   }
 }
