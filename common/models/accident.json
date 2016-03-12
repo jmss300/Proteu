@@ -29,6 +29,11 @@
       "type": "belongsTo",
       "model": "Driver",
       "foreignKey": ""
+    },
+    "heartbeats": {
+      "type": "hasMany",
+      "model": "Heartbeat",
+      "foreignKey": ""
     }
   },
   "acls": [],
