@@ -43,5 +43,9 @@
   "Heartbeat": {
     "dataSource": "mysqlDS",
     "public": true
+  },
+  "MedicalTeam": {
+    "dataSource": "mysqlDS",
+    "public": true
   }
 }
