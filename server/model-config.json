@@ -39,5 +39,9 @@
   "Accident": {
     "dataSource": "mysqlDS",
     "public": true
+  },
+  "Heartbeat": {
+    "dataSource": "mysqlDS",
+    "public": true
   }
 }
